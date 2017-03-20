@@ -15,9 +15,10 @@ From time to time we’re facing with different problems with our [Utils](https:
 * All the time we have to solve customer’s problems very fast and we have no enough time for current utilities adaptation. Usually it much faster to develop necessary functionality from the scratch. But such approach brings us new defects, waste our time to support and improve this functionality. 
 
 ## Proposed solution
-The porposed solution whic has to adress mentioned issues is to use [Boost library](http://www.boost.org)
+The porposed solution whic has to adress mentioned issues is to use [Boost library](http://www.boost.org/users/history/version_1_62_0.html)
 * The way to solve the issue is to use Boost library. It supports dozens of platforms out of the box, even with ancient compilers.
 * The Boost license encourages both commercial and non-commercial use. The Boost license permits the creation of derivative works for commercial or 	non-commercial 	use with no legal requirement to release your source 	code. Other differences include Boost not requiring reproduction of 	copyright messages for object code redistribution, and the fact that the Boost license is not "viral": if you distribute your own code along with some 	Boost code, the Boost license applies only to the Boost code (and 	modified versions thereof); you are free to 	license your own code under any terms you like. The GPL is also much longer, and thus may be 	harder to 	understand.
+* The proposed version of the Boost library is 1.62
 ##### Benifits
 * Boost proves itself as a stable well designed and tested solution. Boost uses iso c++. This library contains dozens of production ready solutions which could be used by developers during their daily routine without any fear to fail a release due to minor error in the hand-written algorithm. Today some of Boost’s utilities became a part of `C++11`: smart pointers, threads, bindings and much more. Although there are a lot of useful utilities which currently accessible only in Boost: filesystem, various algorithms, asynchronous IO, network.
 * Boost used by millions developers in the whole world and exactly this fact makes this library stable and well tested. It works on all mainstream platforms which allows to avoid problem with porting and cross platform development.
