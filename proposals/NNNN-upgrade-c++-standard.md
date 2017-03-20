@@ -33,6 +33,7 @@ Nowadays we are beginning to see bits and pieces of what the so-called connected
 
 ## Proposed solution
 In order to be able to develop stable, reliable and high-performance solutions automotive industry needs to use appropriate environment and try to follow modern standards in software development area and in particular updated `C++11` standard. New `C++11` standard is aimed to resolve or minimize multiple problems we have currently.
+The minimal version og gcc compiler should be 4.7
 
 ## Potential downsides
 * Not all the compilers are fully supports the `C++11` standard. `GCC` partially supports it starting from version 4.4.
